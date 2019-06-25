@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>LIBERTY ELECTRONIC</title>
+    <link rel="shortcut icon" href="images/logo.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/design.css">
+    <script src="js/jsProject.js"></script>
+    <script src="js/simpleCart.min.js"> </script>
+
+</head>
+<body>
+    <div class="fade-box"></div>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">    
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <form action="#" class="navbar-form navbar-left" role="search">
+                    <div class="form-group input-group">
+                        <input type="text" class="form-control" placeholder="Search..">
+                        <span class="input-group-btn">
+                            <button class="btn btn-deafult">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">LAPTOP <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="macbook.html">Macbook</a></li>
+                        <li><a href="dell.html">Dell</a></li>
+                        <li><a href="OtherLaptopBrand.html">Other Laptop Brand</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">MOBILE <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="apple.html">Apple</a></li>
+                        <li><a href="samsung.html">Samsung</a></li>
+                        <li><a href="OtherMobileBrand.html">Other Mobile Brand</a></li>
+                    </ul>
+                </li>
+                <li><a href="accessories.html">ACCESSORIES</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="about_us.html">ABOUT US</a></li>
+                <li><a href="contact_us.html">CONTACT US</a></li>
+                <li><a href="#"><span class="simpleCart_total"> $0.00 </span> (<span id="simpleCart_quantity" class="simpleCart_quantity"> 0 </span>) <span class="glyphicon glyphicon-shopping-cart"></span></a></li>    
+                <li><a href="javascript:;" class="simpleCart_empty">Empty cart</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container text-center">
+        <div class="row">    
+            <div class="col-md-8">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-indicators">
+                        <div class="active" data-target="#myCarousel" data-slide-to="0">Buy iPhone on hire-purchase without interest</div>
+                        <div data-target="#myCarousel" data-slide-to="1">49% discount on all accessories</div>
+                        <div data-target="#myCarousel" data-slide-to="2">Buy Galaxy Note 9 with promotion</div>
+                        <div data-target="#myCarousel" data-slide-to="3">Samsung Galaxy A7 Down to 60$</div>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/iphone-xs.jpg" alt="iphone">   
+                        </div>
+                        <div class="item">
+                            <img src="images/khuyen-mai-phu-kien.png" alt="khuyenmai">                       
+                        </div>
+                        <div class="item">
+                            <img src="images/note9.png" alt="note9">
+                        </div>
+                        <div class="item">
+                            <img src="images/samsung-Galaxy-A7-giam-1.3tr-800-300.png" alt="khuyen-mai">
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>  
+            <div class="col-md-4">
+                <h4 class="title slide-horizontal-right">Technology News</h4>
+                <div id="box-infor">
+                    <div class="row info slide-horizontal-right">
+                        <div class="col-md-8">
+                            Galaxy S9 with Snapdragon 845 chipset
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/s9.jpg" alt="s9">
+                        </div>
+                    </div>    
+                    <div class="row info slide-horizontal-right">
+                        <div class="col-md-8">
+                            Oppo's new product pictures are leaked
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/oppo.jpg" alt="opppo">
+                        </div>
+                    </div>
+                    <div class="row info slide-horizontal-right">
+                        <img src="images/big-apple-398-110.png" alt="big-apple">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+        <div class="row sale-product slide">
+            <h3 class="title slide-horizontal-left">HOT SALES</h3>
+            <div class="col-md-3">
+            <a href="#">
+               <img src="images/iphone-xs-max.jpg" alt="iphone">
+               <h5>iPhone XS Max 256GB</h5>
+            </a>
+               <h5 class="price">$1631.24</h5>
+               <span class="label label-warning">Trả góp 0%</span>
+               <h6>Discount 2.000.000đ when paying by card online through VP Bank</h6>
+           </div>
+           <div class="col-md-3">
+                <a href="#">
+                    <img src="images/oppo-F9.jpg" alt="oppo">
+                    <h5>OPPO F9</h5>
+                </a>
+                <h5 class="price">$330.54</h5>
+                <span class="label label-warning">Trả góp 0%</span>
+                <h6>Voucher can be up to 1.000.000đ at Metro supermarket system</h6>
+           </div>
+           <div class="col-md-3">
+                <a href="#">
+                    <img src="images/ipad-wifi-32gb.jpg" alt="ipad">
+                    <h5>Ipad 2018 wifi 32GB</h5>
+                </a>
+               <h5 class="price">$386.35</h5>
+               <span class="label label-warning">Trả góp 0%</span>
+               <h6>Giving Ipad's handbag and a coupon at Metro supermarket system</h6>
+           </div>
+           <div class="col-md-3">
+                <a href="#">
+                    <img src="images/samsung-galaxy-j8.jpg" alt="sangsung">
+                    <h5>Samsung Galaxy J8</h5>
+                </a>
+               <h5 class="price">$274.74</h5>
+               <span class="label label-warning">Trả góp 0%</span>
+               <h6>Giving mini headphone and a coupon at Liberty Electronics</h6>
+           </div>
+        </div>
+        <div class="row sale-product slideanim">
+            <div class="col-md-3">  
+                <a href="#">                 
+                    <img src="images/dell-inspiron-3576.png" alt="dell">
+                    <h5>Dell-inspiron-3576</h5>
+                </a>    
+                <h5 class="price">$643.91</h5>
+                <span class="label label-danger">Giảm 49%</span>
+                <h6>Giving Dell's backpack and discount 30 percents to all products</h6>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="images/pin-sac-du-phong.jpg" alt="pin">
+                    <h5>Powerbank</h5>
+                </a>
+                <h5 class="price">$23.61</h5>
+                <span class="label label-danger">Giảm 30%</span>
+                <h6>Giving coupon and have a chance to win a featuring special product</h6>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="images/tai-nghe.jpg" alt="tai-nghe">
+                    <h5>Headphone</h5>
+                </a>
+                <h5 class="price">$3.86</h5>
+                <span class="label label-danger">Giảm 30%</span>
+                <h6>Giving coupon and have a chance to win a featuring special product</h6>
+            </div>
+            <div class="col-md-3">
+                <a href="#">
+                    <img src="images/chuot-co-day-genius-dx.jpg" alt="chuot">
+                    <h5>Genius's mouse</h5>
+                </a>
+                <h5 class="price">$4.29</h5>
+                <span class="label label-danger">Giảm 35%</span>
+                <h6>Giving coupon and have a chance to win a featuring special product</h6>
+            </div>
+        </div>
+    </div>
+    <div class="container">       
+        <div class="row">
+            <h3 class="title slideanim">FEATURING</h3>
+            <div class="col-md-2">
+                <ul class="nav nav-pills nav-stacked pos">    
+                    <li class="active slideanim"><a href="#mobile" data-toggle="pill"><h4>MOBILE</h4></a></li>
+                    <li class="slideanim"><a href="#laptop" data-toggle="pill"><h4>LAPTOP</h4></a></li>
+                    <li class="slideanim"><a href="#accessories" data-toggle="pill"><h4>ACCESSORIES</h4></a></li>
+                </ul>
+            </div>
+            <div class="col-md-10 feature-product">
+                <div class="tab-content">
+                    <div class="tab-pane fade in active" id="mobile">
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="mobile-1">
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/sp-iphone-xr-256gb-white-600x600.jpg" alt="Iphone">
+                                                <h5>Iphone XR 256GB white</h5>
+                                            </a>
+                                            <span class="label label-warning">Trả góp 0%</span>
+                                            <h5 class="item_price price">$1075.6</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/IphoneXR256GBWhite.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/sp-iphone-x-256gb-silver-600x600.jpg" alt="Iphone">
+                                                <h5>Iphone X 256GB Silver</h5>
+                                            </a>
+                                            <span class="label label-warning">Trả góp 0%</span>
+                                            <h5 class="item_price price">$1376.8</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/IphoneX256GBSilver.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/sp-iphone-xs-max-64gb.jpg" alt="Iphone">
+                                                <h5>Iphone XS Max 64GB</h5>
+                                            </a>
+                                            <span class="label label-success">Giá rẻ online</span>
+                                            <h5 class="item_price price">$1419.8</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/IphoneXSMax64GB.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/sp-iphone-xr-128gb-red-600x600.jpg" alt="Iphone">
+                                                <h5>Iphone XR 128GB Red</h5>
+                                            </a>
+                                            <span class="label label-warning">Trả góp 0%</span>
+                                            <h5 class="item_price price">$989.5</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/sp-iphone-8-256gb-hh-600x600.jpg" alt="Iphone">
+                                                <h5>Iphone 8 Plus 255GB</h5>
+                                            </a>
+                                            <span class="label label-warning">Trả góp 0%</span>
+                                            <h5 class="item_price price">$946.5</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/sp-iphone-8-plus-256gb-red-600x600.jpg" alt="Iphone">
+                                                <h5>Iphone 8 plus 265GB Red</h5>
+                                            </a>
+                                            <span class="label label-danger">Giảm 10%</span>
+                                            <h5 class="item_price price">$1118.6</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/sp-iphone-8-plus-hh-600x600.jpg" alt="Iphone">
+                                                <h5>Iphone 8 PLUS 128GB<h5>
+                                            </a>
+                                            <span class="label label-danger">Giảm 10%</span>
+                                            <h5 class="item_price price">$989.5</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/samsung-samsung-galaxy-s9-plus-128gb-600x600-600x600-600x600.jpg" alt="samsung">
+                                                <h5>Samsung Galaxy S9 Plus 128GB</h5>
+                                            </a>
+                                            <span class="label label-warning">Trả góp 0%</span>
+                                            <h5 class="item_price price">$1243.4</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/SamsungGalaxyS9Plus128GB.docx">Product detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/samsung-samsung-galaxy-note-9-black-600x600.jpg" alt="samsung">
+                                                <h5>Samsung Galaxy Note 9 Black</h5>
+                                            </a>
+                                            <h5 class="item_price price">$968.7</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/SamsungGalaxyNote9Black.docx">Product detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="mobile-2">
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/samsung-samsung-galaxy-note-9-512gb-blue-600x600.jpg" alt="samsung">
+                                                <h5>Samsung Galaxy Note 9 512GB Blue</h5>
+                                            </a>
+                                            <h5 class="item_price price">$1097.1</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/SamsungGalaxyNote9512GBBlue.docx">Product detail</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/samsung-samsung-galaxy-a9-2018-blue-600x600.jpg" alt="samsung">
+                                                <h5>Samsung Galaxy A9 Blue</h5>
+                                            </a>
+                                            <span class="label label-warning">Trả góp 0%</span>
+                                            <h5 class="item_price price">$537.8</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/samsung-samsung-galaxy-a8-star-black-600x600.jpg" alt="Samsung">
+                                                <h5>samsung Galaxy A8 Star Black</h5>
+                                            </a>
+                                            <h5 class="item_price price">$473.2</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/samsung-samsung-galaxy-a7-2018-128gb-black-600x600.jpg" alt="samsung">
+                                                <h5>Samsung Galaxy A7 128GB Black</h5>
+                                            </a>
+                                            <span class="label label-warning">Trả góp 0%</span>
+                                            <h5 class="item_price price">$387.2</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/oppo-oppo-find-x-1-200x200.jpg" alt="oppo">
+                                                <h5>Oppo Find X</h5>
+                                            </a>
+                                            <h5 class="item_price price">$899</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/OPPOFindX.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product">
+                                            <a href="#">
+                                                <img src="images/oppo-oppo-f9-red-200x200.jpg" alt="oppo">
+                                                <h5>Oppo F9 Red</h5>
+                                            </a>
+                                            <span class="label label-danger">Giảm 10%</span>
+                                            <h5 class="item_price price">$365.7</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/OPPOF9Red.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/oppo-oppo-f7-bac-200x200.jpg" alt="oppo">
+                                                <h5>Oppo F7 Silver</h5>
+                                            </a>
+                                            <h5 class="item_price price">$301.1</h5>
+                                            <div class="btn-group">
+                                                <button class="item_price btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/OPPOF7Silver.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/oppo-oppo-a83-16gb-200x200.jpg" alt="oppo">
+                                                <h5>Oppo A83 16GB</h5>
+                                            </a>
+                                            <h5 class="item_price price">$189.3</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/oppo-oppo-f5-youth-vang-hong-6001-200x200.jpg" alt="oppo">
+                                                <h5>Oppo F5 Youth</h5>
+                                            </a>
+                                            <h5 class="item_price price">$215.1</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="mobile-3">
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/huawei-huawei-mate-20-black-600x600.jpg" alt="huawei">
+                                                <h5>Huawei Mate 20 Black</h5>
+                                            </a>
+                                            <span class="label label-primary">Mới ra mắt</span>
+                                            <h5 class="item_price price">$641.8</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/huawei-huawei-mate-20-pro-green-600x600.jpg" alt="huawei">
+                                                <h5>Huawei Mate Pro Green</h5>
+                                            </a>
+                                            <h5 class="item_price price">$942.2</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/huawei-huawei-nova-3-2-600x600.jpg" alt="huawei">
+                                                <h5>Huawei Nova 3</h5>
+                                            </a>
+                                            <h5 class="item_price price">$425.9</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/xiaomi-xiaomi-mi-8-1-200x200.jpg" alt="xiaomi">
+                                                <h5>Xiaomi Mi 8</h5>
+                                            </a>
+                                            <h5 class="item_price price">$555.3</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/xiaomi-xiaomi-mi-a1-32gb-vang-dong-200x200.jpg" alt="xiaomi">
+                                                <h5>Xiaomi A1 Yellow</h5>
+                                            </a>
+                                            <h5 class="item_price price">$215.1</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/xiaomi-xiaomi-redmi-6-xam-200x200.jpg" alt="xiaomi">
+                                                <h5>Xiaomi Redmi 6</h5>
+                                            </a>
+                                            <h5 class="item_price price">$150.5</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/htc-htc-u12-life-1-600x600.jpg" alt="htc">
+                                                <h5>HTC U12 Life</h5>
+                                            </a>
+                                            <h5 class="item_price price">$322.9</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-pills pos">    
+                            <li class="active"><a href="#mobile-1" data-toggle="pill">1</a></li>
+                            <li><a href="#mobile-2" data-toggle="pill">2</a></li>
+                            <li><a href="#mobile-3" data-toggle="pill">3</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="laptop">
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="laptop-1">
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/macbook-macbook-pro-touch-mr932sa-a-2018-thumb-1-200x200.jpg" alt="macbook">
+                                                <h5>Macbook Pro Touch Mr932 2018</h5>
+                                            </a>
+                                            <span class="label label-primary">Mới ra mắt</span>
+                                            <h5 class="item_price price">$2473.9</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/MACBOOKPROtouchMR932sa2018.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/macbook-macbook-pro-touch-mr9q2sa-a-2018-thumb-1-200x200.jpg" alt="macbook">
+                                                <h5>Macbook Pro Touch Mr9q 2018</h5>
+                                            </a>
+                                            <h5 class="item_price price">$1931.8</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/MACBOOKPROTouchMR9q2sa.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/macbook-macbook-pro-touch-mpxv2sa-a-xam-avar-230x153.jpg" alt="macbook">
+                                                <h5>Macbook Pro Touch Mpxv2sa</h5>
+                                            </a>
+                                            <h5 class="item_price price">$1976.8</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/MACBOOKPROTouchMVXP2sa.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/macbook-macbook-air-mqd42sa-a-i5-5350u-8gb-256gb-bac-450x300-230x153.jpg" alt="macbook">
+                                                <h5>Macbook Air  Mqd32</h5>
+                                            </a>
+                                            <h5 class="item_price price">$903.5</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/macbook-macbook-12-mnyk2sa-a-450x300-230x153.jpg" alt="macbook">
+                                                <h5>Macbook '12' Mnyk2sa</h5>
+                                            </a>
+                                            <h5 class="item_price price">$1437.5</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/apple-macbook-12-mmgl2-core-m-11g-8gb-256gb-macos--450x300-230x153.jpg" alt="macbook">
+                                                <h5>Macbook 12 MMGL2</h5>
+                                            </a>
+                                            <h5 class="item_price price">$690.3</h5> 
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/dell-dell-inspiron-3576-p63f002n76f-450-200x200.png" alt="dell">
+                                                <h5>Dell Inspirion 3576</h5>
+                                            </a>
+                                            <span class="label label-warning">Trả góp 0%</span>
+                                            <h5 class="item_price price">$645.3</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/DellInspirion3576.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/dell-dell-inspiron-5379-i7-8550u-c3ti7501w-fix-dmx-200x200.jpg" alt="dell">
+                                                <h5>Dell Inspirion 5379</h5>
+                                            </a>
+                                            <h5 class="item_price price">$1032.6</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/dell-dell-inspiron-5570-i5-8250u-m5i5238w-dai-dien-200x200.jpg" alt="dell">
+                                                <h5>Dell Inspiron 5570</h5>
+                                            </a>
+                                            <span class="label label-warning">Trả góp 0%</span>
+                                            <h5 class="item_price price">$731.4</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/DellInspirion5570.docx">Product details</a>
+                                            </div>  
+                                        </div> 
+                                    </div>
+                                </div>
+    
+                            </div>
+                            <div class="tab-pane fade" id="laptop-2">
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/dell-dell-inspiron-7570-i5-8250u-4gb-1tb-128gb-4gb-940m-ava-200x200.jpg" alt="dell">
+                                                <h5>Dell inspiron 7570</h5>
+                                            </a>
+                                            <h5 class="item_price price">$946.56</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/DellInspirion7570.docx ">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/dell-dell-vostro-3568-i5-7200u-400-450x300-230x153.png" alt="dell">
+                                                <h5>Dell Vostro 3568</h5>
+                                            </a>
+                                            <h5 class="ietm_price price">$559.3</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/dell-dell-vostro-5568-077m52-vangdong-450x300-450x300-200x200.png" alt="dell">
+                                                <h5>Dell Vostro 5568</h5>
+                                            </a>
+                                            <span class="label label-warning">Trả góp 0%</span>
+                                            <h5 class="item_price price">$684.1</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/asus-asus-x507uf-i5-8250u-4gb-1tb-2gb-mx130-ej121t-thumb-2-200x200.jpg" alt="asus">
+                                                <h5>Asus X507</h5>
+                                            </a>
+                                            <span class="label label-danger">Giảm 10%</span>
+                                            <h5 class="item_price price">$473.2</h5>
+                                            <div class="btn-group">
+                                                <button class="itwm_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/AsusVivoBookX507.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/asus-asus-tp410ua-ec228t-cava-200x200.jpg" alt="asus">
+                                                <h5>Asus Tp410</h5>
+                                            </a>
+                                            <span class="label label-danger">Giảm 10%</span>
+                                            <h5 class="item_price price">$516.3</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a href="Product-detail/AsusTP410.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/asus-asus-s530ua-i5-8250u-4gb-16gb-1tb-win10-bq290t-33397-thumb123321-200x200.jpg" alt="asus">
+                                                <h5>Asus S530</h5>
+                                            </a>
+
+                                            <h5 class="item_price price">$731.4</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/AsusS530.docx">Product details</a>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/asus-asus-s510uq-i5-8250u-bq475t-dai-dien-new-1-230x153.jpg" alt="asus">
+                                                <h5>Asus S510 Bq475</h5>
+                                            </a>
+                                            <h5 class="item_price price">$774.4</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/asus-asus-s510ua-i5-8250u-bq414t-dai-dien-450x300-200x200.jpg" alt="asus">
+                                                <h5>Asus S510 Bq414</h5>
+                                            </a>
+                                            <h5 class="item_price price">$430.2</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/asus-asus-gl504gm-es044t-avatar2-200x200.jpg" alt="asus">
+                                                <h5>Asus Gl504gm</h5>
+                                            </a>
+                                            <h5 class="item_price price">$494.7</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="laptop-3">
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/hp-hp-15-da0058tu-4na92pa-33397-ava1-200x200.jpg" alt="hp">
+                                                <h5>HP 15 Da0058</h5>
+                                            </a>
+                                            <h5 class="item_price price">$602.3</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/hp-hp-envy-13-ah0025tu-4me92pa-200x200.jpg" alt="hp">
+                                                <h5>HP Envy Ah0025</h5>
+                                            </a>
+                                            <span class="label label-warning">Trả góp 0%</span>
+                                            <h5 class="item_price price">$860.5</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/hp-hp-envy-13-ah0027tu-4me94pa-14-200x200.jpg" alt="hp">
+                                                <h5>HP Envy Ah0027</h5>
+                                            </a>
+                                            <h5 class="item_price price">$1118.6</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/hp-hp-pavilion-x360-cd0082tu-4mf15pa-450-200x200.jpg" alt="hp">
+                                                <h5>HP Pavilion X360</h5>
+                                            </a>
+                                            <h5 class="item_price price">$559.3</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/lenovo-lenovo-ideapad-320-15ikbn-i7-8550u-81bg00e1vn-dai-dien-230x153.jpg" alt="lenovo">
+                                                <h5>Lenovo Ideapad 320</h5>
+                                            </a>
+                                            <h5 class="item_price price">$425.9</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/lenovo-lenovo-ideapad-330s-14ikb-81f400nmvn-thum123-200x200.jpg" alt="lenovo">
+                                                <h5>Lenovo Ideapad 330</h5>
+                                            </a>
+                                            <h5 class="ietm_price price">$430.2</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">        
+                                            <a href="#">
+                                                <img src="images/lenovo-lenovo-ideapad-yoga-530-14ikb-7130u-200x200.jpg" alt="lenovo">
+                                                <h5>Lenovo Ideapad Yoga 530</h5>
+                                            </a>
+                                            <h5 class="item_price price">$645.3</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>     
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-pills pos">
+                            <li class="active"><a href="#laptop-1" data-toggle="pill">1</a></li>
+                            <li><a href="#laptop-2" data-toggle="pill">2</a></li>
+                            <li><a href="#laptop-3" data-toggle="pill">3</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="accessories">
+                        <div class="tab-content">
+                            <div class="tab-pane fade in active" id="accessories-1">
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/chuot-chuot-co-day-logitech-m100r-den-1-2-600x600.jpg" alt="accessories">
+                                                <h5>Chuột có dây Logitech M100r</h5>
+                                            </a>
+                                            <h5 class="item_price price">$4.3</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/chuot-chuot-co-day-zadez-m116-den-17-600x600.jpg" alt="accessories">
+                                                <h5>Chuột có dây Zadez M116 black</h5>
+                                            </a>
+                                            <h5 class="item_price price">$4.7</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/chuot-chuot-gaming-cliptec-sanegnot-rgs621-1-2-600x600.jpg" alt="accessories">
+                                                <h5>CHuột có dây Cliptec</h5>
+                                            </a>
+                                            <h5 class="item_price price">$9</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/chuot-chuot-gaming-zadez-gt-613m-ava-600x600.jpg" alt="accessories">
+                                                <h5>CHuột có dây Zadez gt613</h5>
+                                            </a>
+                                            <h5 class="item_price price">$12.9</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/chuot-chuot-khong-day-anitech-mw315-1-4-600x600.jpg" alt="accessories">
+                                                <h5>CHuột không dây Anitech Mw315</h5>
+                                            </a>
+                                            <h5 class="item_price price">$10.7</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/chuot-chuot-khong-day-zadez-m325-ava-600x600.jpg" alt="accessories">
+                                                <h5>Chuột không dây Zadez M325</h5>
+                                            </a>
+                                            <h5 class="item_price price">$6.8</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/chuot-co-day-genius-dx.jpg" alt="accessories">
+                                                <h5>Chuột có dây Genius dx</h5>
+                                            </a>
+                                            <h5 class="item_price price">$5.1</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/loa-loa-bluetooth-esaver-s12b-ava-600x600.jpg" alt="accessories">
+                                                <h5>Loa Bluetooth Esaver S12b</h5>
+                                            </a>
+                                            <h5 class="item_price price">$19.3</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/loa-loa-bluetooth-esaver-u220b-9-600x600.jpg" alt="accessories">
+                                                <h5>Loa Bluetooth Esaver U220b</h5>
+                                            </a>
+                                            <h5 class="item_price price">$21.5</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="accessories-2">
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                       <div class="box-product simpleCart_shelfItem">
+                                        <a href="#">
+                                            <img src="images/loa-loa-bluetooth-esaver-v3-avatar-2-600x600.jpg" alt="accessories">
+                                            <h5>Loa Bluetooth Esaver v3</h5>
+                                        </a>
+                                        <h5 class="item_price price">$22.5</h5>
+                                        <div class="btn-group">
+                                            <button class="item_add btn btn-default">Add to cart</button>
+                                            <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                        </div>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/loa-loa-bluetooth-fenda-w7-ava-600x600.jpg" alt="accessories">
+                                                <h5>Loa Bluetooth Fenda W7</h5>
+                                            </a>
+                                            <h5 class="item_price price">$21.5</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/loa-loa-bluetooth-fenda-w8-1-600x600.jpg" alt="accessories">
+                                                <h5>Loa Bluetooth Fenda W8</h5>
+                                            </a>
+                                            <h5 class="item_price price">$27.9</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/loa-loa-bluetooth-sony-srs-xb01-600x600.jpg" alt="accessories">
+                                                <h5>Loa BlueTooth Sony xb01</h5>
+                                            </a>
+                                            <h5 class="item_price price">$36.5</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/cap-audio-35mm-1m-esaver-ds125-tb-den-ava-600x600.jpg" alt="accessories">
+                                                <h5>Cáp sạc audio Esaver ds125</h5>
+                                            </a>
+                                            <h5 class="item_price price">$1.07</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/cap-micro-usb-20cm-esaver-bst-0728-trang-avatar-1-1-600x600.jpg" alt="accessories">
+                                                <h5>Cap USB esaver Bst0728</h5>
+                                            </a>
+                                            <h5 class="item_price price">$1.72</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div> 
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/cap-micro-usb-20cm-esaver-ds026-avatar-1-600x600.jpg" alt="accessories">
+                                                <h5>Cap USB esaver Ds026</h5>
+                                            </a>
+                                            <h5 class="item_price price">$0.86</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/cap-micro-usb-20cm-x-mobile-mu03-den-avatar-1-600x600.jpg" alt="accessories">
+                                                <h5>Cáp USB mobile Mu03</h5>
+                                            </a>
+                                            <h5 class="item_price price">$2.1</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/usb-20-otg-16gb-transcend-jetflash-380-1-600x600.jpg" alt="accessories">
+                                                <h5>USB 16GB Transcend JetFlash</h5>
+                                            </a>
+                                            <h5 class="item_price price">$8.6</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="accessories-3">
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/usb-30-16gb-sandisk-cz600-1-2-600x600.jpg" alt="accessories">
+                                                <h5>USB 16GB Sandisk Cz600</h5>
+                                            </a>
+                                            <h5 class="item_price price">$12.9</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/usb-30-32gb-sandisk-cz73-ava-600x600.jpg" alt="accessories">
+                                                <h5>USB 32GB Sandisk Cz73</h5>
+                                            </a>
+                                            <h5 class="item_price price">$14</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/usb-31-32gb-apacer-ah357-av-600x600.jpg" alt="accessories">
+                                                <h5>USB 32GB Apacer Ah357</h5>
+                                            </a>
+                                            <h5 class="item_price price">$25.8</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/usb-8gb-20-apacer-ah112-1-9-600x600.jpg" alt="accessories">
+                                                <h5>USB 8GB Apacer Ah112</h5>
+                                            </a>
+                                            <h5 class="item_price price">$10.7</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/usb-8gb-20-apacer-ah328-1-3-600x600.jpg" alt="accessories">
+                                                <h5>USB 8GB Apacer Ah328</h5>
+                                            </a>
+                                            <h5 class="item_price price">$8.6</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/usb-8gb-20-transcend-jetflash-360-1-2-600x600.jpg" alt="accessories">
+                                                <h5>USB 8GB Transcend Jetflash</h5>
+                                            </a>
+                                            <h5 class="item_price price">$9.4</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>   
+                                    </div>
+                                </div>
+                                <div class="row slideanim">
+                                    <div class="col-md-4">
+                                        <div class="box-product simpleCart_shelfItem">
+                                            <a href="#">
+                                                <img src="images/usb-apacer-ah175-otg-8gb-20-1-4-600x600.jpg" alt="accessories">
+                                                <h5>USB 8GB Apacer Ah175</h5>
+                                            </a>
+                                            <h5 class="item_price price">$8.1</h5>
+                                            <div class="btn-group">
+                                                <button class="item_add btn btn-default">Add to cart</button>
+                                                <a class="btn btn-success" href="Product-detail/Beingupdated.docx">Product details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="nav nav-pills pos">
+                            <li class="active"><a href="#accessories-1" data-toggle="pill">1</a></li>
+                            <li><a href="#accessories-2" data-toggle="pill">2</a></li>
+                            <li><a href="#accessories-3" data-toggle="pill">3</a></li>
+                        </ul>
+                    </div>     
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row footer slideanim">
+            <div class="col-md-4">
+                <h2>INFORMATION</h2>
+                <p><a href="about_us.html">About Us</a></p>
+                <p><a href="contact_us.html">Contact Us</a></p>
+                <p><a href="#">Customer Service</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>CONTACT</h2>
+                <p><strong>Call to purchase: </strong><a href="#">1800 113</a></p>
+                <p><strong>Call to complain: </strong><a href="#">1800 114</a></p>
+                <p><strong>Call for guarantee: </strong><a href="#">1800 115</a></p>
+                <p><strong>Call for technical assistance: </strong><a href="#">1800 911</a></p>
+            </div>
+            <div class="col-md-4">
+                <h2>MY ACCOUNT</h2>
+                <p><a href="#">Sign In</a></p>
+                <p><a href="#">View Cart</a></p>
+                <p><a href="#">Help</a></p>
+            </div>
+        </div>
+        <div class="row">
+            <p id="origin">2018.Liberty Electronics Company. All rights reserved | Design By Group02 T1.1807.M0</p>
+        </div>
+    </div>
+</body>
+</html>
